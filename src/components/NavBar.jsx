@@ -11,7 +11,7 @@ function NavBar() {
     <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-slate-300 bg-gray/70 px-16 py-6 text-white backdrop-blur-md md:justify-evenly">
       <a
         href="#home"
-        className="bg-gradient-to-r from-slate-50 to-slate-500 bg-clip-text text-transparent opacity-80 -mx-5 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
+        className="bg-gradient-to-r from-slate-50 to-slate-500 bg-clip-text text-transparent opacity-80 -mx-8 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
       >
         Jerome
       </a>
