@@ -59,7 +59,7 @@ function ScrollBehavior({ children }) {
 function Projects() {
   return (
     <div
-      id="projects"
+      id="project"
       className="flex min-h-screen w-full flex-col items-center justify-center gap-16 p-4 md:px-14 md:py-24"
     >
       <ScrollBehavior>
