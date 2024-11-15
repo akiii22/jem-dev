@@ -80,9 +80,12 @@ function NavBar() {
         </li>
       </ul>
       {toggle ? (
-        <BiX className="block md:hidden text-4xl" onClick={toggleOpen} />
+        <BiX className="block md:hidden -mx-6 text-4xl" onClick={toggleOpen} />
       ) : (
-        <BiMenu className=" block md:hidden text-4xl" onClick={toggleOpen} />
+        <BiMenu
+          className=" block md:hidden text-4xl -mx-6"
+          onClick={toggleOpen}
+        />
       )}
       {toggle && (
         <div
