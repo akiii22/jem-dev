@@ -108,7 +108,9 @@ function ProjectsCart({ project }) {
             {project.technologies.map((tech, index) => (
               <span
                 key={index}
-                className={`rounded-lg p-3 ${colorCoded[tech] || "bg-black"}`}
+                className={`rounded-lg p-3 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-2 hover ${
+                  colorCoded[tech] || "bg-black"
+                }`}
               >
                 {tech}
               </span>
