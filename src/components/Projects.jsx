@@ -18,7 +18,7 @@ const projectData = [
     title: "Fast Pizza (Course Project)",
     description:
       "A client-side React application where users can order pizza and view their order. Built as part of a course project using React, Redux, and Tailwind CSS.",
-    technologies: ["Redux", "Tailwind CSS", "React", "React Router"],
+    technologies: ["Redux", "Tailwind", "React", "React Router"],
   },
   {
     image: img7,
@@ -32,17 +32,31 @@ const projectData = [
     title: "UsePopcorn (Course Project)",
     description:
       "A React application where you can search for movies and save them to your list. This project introduced me to the useEffect hook and component state management.",
-    technologies: ["React", "Styled Components", "useEffect"],
+    technologies: ["React", "Styled Module"],
   },
   {
     image: img2,
     title: "Worldwise (Course Project)",
     description:
       "A map-based React application where users can mark locations they've traveled to. Built as part of a course project to learn React Router and Context API.",
-    technologies: ["React", "Styled Components", "React Router", "Context API"],
+    technologies: ["React", "Styled Module", "React Router", "Context API"],
   },
 ];
 
+const colorCoded = {
+  PHP: "bg-purple-500",
+  MySQL: "bg-red-500",
+  JavaScript: "bg-yellow-500",
+  HTML: "bg-orange-500",
+  CSS: "bg-blue-700",
+  Redux: "bg-purple-800",
+  Tailwind: "bg-cyan-500",
+  React: "bg-sky-500",
+  "Styled Module": "bg-indigo-500",
+  "React Router": "bg-orange-500",
+  "Context API": "bg-lime-500",
+  MVC: "bg-amber-500",
+};
 function ScrollBehavior({ children }) {
   return (
     <motion.div
@@ -92,7 +106,10 @@ function ProjectsCart({ project }) {
           </div>
           <div className="flex flex-wrap gap-5">
             {project.technologies.map((tech, index) => (
-              <span key={index} className="rounded-lg bg-black p-3">
+              <span
+                key={index}
+                className={`rounded-lg p-3 ${colorCoded[tech] || "bg-black"}`}
+              >
                 {tech}
               </span>
             ))}

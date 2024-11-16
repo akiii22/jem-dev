@@ -30,11 +30,15 @@ function Profile() {
           <h3 className="bg-gradient-to-r from-slate-500 to-slate-50 bg-clip-text text-transparent text-2xl font-light md:text-3xl">
             Web Developer
           </h3>
-          <p className="md:text-base text-pretty text-sm text-gray-300">
-            I&apos;m a fresh graduate with a major in Web Application
-            Development, skilled in HTML, CSS, JavaScript, React, Node.js, and
-            more. Passionate about creating modern, responsive web applications
-            and continuously expanding my technical expertise.
+          <p className="md:text-[1.1rem] text-pretty md:text-center text-left text-xl text-gray-300">
+            I’m a fresh graduate with a Bachelor of Science in Information
+            Technology, majoring in Web Application Development. I’m skilled in
+            HTML, CSS, JavaScript, React, Node.js, and more. I’m passionate
+            about creating modern, responsive web applications and constantly
+            expanding my technical expertise. While I have basic knowledge in
+            back-end development, my main interest lies in front-end
+            development. I’m excited to work with others and collaborate on
+            exciting projects.
           </p>
         </motion.div>
       </div>
