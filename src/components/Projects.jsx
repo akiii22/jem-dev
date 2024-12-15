@@ -1,8 +1,9 @@
-import img1 from "/public/img1.png";
-import img2 from "/public/img2.png";
-import img3 from "/public/img3.png";
-import img4 from "/public/img4.png";
-import img7 from "/public/img7.png";
+import img1 from "/img1.png";
+import img2 from "/img2.png";
+import img3 from "/img3.png";
+import img4 from "/img4.png";
+import img7 from "/img7.png";
+import img8 from "/img8.png";
 import { motion } from "framer-motion";
 
 const projectData = [
@@ -41,6 +42,20 @@ const projectData = [
       "A map-based React application where users can mark locations they've traveled to. Built as part of a course project to learn React Router and Context API.",
     technologies: ["React", "Styled Module", "React Router", "Context API"],
   },
+  {
+    image: img8,
+    title: "Wild Oasis (Main Course Project)",
+    description:
+      "A React application where you can add cabin and see the sales, it's more likely to be a admin side where they can see, edit, delete, update to the users who book a cabin",
+    technologies: [
+      "React",
+      "Styled Module",
+      "React Router",
+      "React Query",
+      "Supabase",
+      "Recharts",
+    ],
+  },
 ];
 
 const colorCoded = {
@@ -56,6 +71,9 @@ const colorCoded = {
   "React Router": "bg-orange-500",
   "Context API": "bg-lime-500",
   MVC: "bg-amber-500",
+  Supabase: "bg-green-500",
+  "React Query": "bg-pink-700",
+  Recharts: "bg-blue-300",
 };
 function ScrollBehavior({ children }) {
   return (
