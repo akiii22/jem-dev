@@ -4,6 +4,7 @@ import img3 from "/img3.png";
 import img4 from "/img4.png";
 import img7 from "/img7.png";
 import img8 from "/img8.png";
+import img9 from "/img9.png";
 import { motion } from "framer-motion";
 
 const projectData = [
@@ -56,6 +57,13 @@ const projectData = [
       "Recharts",
     ],
   },
+  {
+    image: img9,
+    title: "Mango-Go-Yow(Ongoing freelance project)",
+    description:
+      "A web application for a mango shake business in Lemery Batangas. With data visualization, qr-code generator in payment.",
+    technologies: ["React", "Postgre", "Expressjs", "Nodejs", "Tailwind"],
+  },
 ];
 
 const colorCoded = {
@@ -74,6 +82,9 @@ const colorCoded = {
   Supabase: "bg-green-500",
   "React Query": "bg-pink-700",
   Recharts: "bg-blue-300",
+  Nodejs: "bg-green-600",
+  Expressjs: "bg-black/40",
+  Postgre: "bg-blue-600",
 };
 function ScrollBehavior({ children }) {
   return (
