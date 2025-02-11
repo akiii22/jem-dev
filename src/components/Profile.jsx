@@ -31,14 +31,15 @@ function Profile() {
             Web Developer
           </h3>
           <p className="md:text-[1.1rem] text-pretty md:text-center text-left text-xl text-gray-300">
-            I’m a fresh graduate with a Bachelor of Science in Information
-            Technology, majoring in Web Application Development. I’m skilled in
-            HTML, CSS, JavaScript, React, Node.js, and more. I’m passionate
-            about creating modern, responsive web applications and constantly
-            expanding my technical expertise. While I have basic knowledge in
-            back-end development, my main interest lies in front-end
-            development. I’m excited to work with others and collaborate on
-            exciting projects.
+            I am a Bachelor of Science in Information Technology graduate,
+            majoring in Web Application Development. Skilled in HTML, CSS,
+            JavaScript, React, Next.js, Node.js, and PostgreSQL, I have a strong
+            passion for building modern, responsive, and user-friendly web
+            applications. While I have foundational knowledge in back-end
+            development, my primary focus and expertise lie in front-end
+            development. I thrive in collaborative environments and am eager to
+            contribute to innovative projects while continuously enhancing my
+            technical skills.
           </p>
         </motion.div>
       </div>
